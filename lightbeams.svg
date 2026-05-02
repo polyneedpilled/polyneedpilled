@@ -25,12 +25,12 @@
       50%  { transform: rotate(-45deg);  }
       100% { transform: rotate(45deg); }
     }
-    #lb1 { animation: lb1anim 2s ease-in-out infinite; }
-    #lb2 { animation: lb2anim 2s ease-in-out infinite; animation-delay: -0.4s; }
-    #lb3 { animation: lb3anim 4s ease-in-out infinite; }
-    #lb4 { animation: lb3anim 4s ease-in-out infinite; animation-delay: -1s; }
-    #lb5 { animation: lb3anim 4s ease-in-out infinite; animation-delay: -0.6s; }
-    #lb6 { animation: lb3anim 4s ease-in-out infinite; animation-delay: -1.4s; }
+    #lb1 { animation: lb1anim 6s ease-in-out infinite; }
+    #lb2 { animation: lb2anim 6s ease-in-out infinite; animation-delay: -0.5s; }
+    #lb3 { animation: lb3anim 6s ease-in-out infinite; animation-delay: -1.5s }
+    #lb4 { animation: lb3anim 6s ease-in-out infinite; animation-delay: -3.5s; }
+    #lb5 { animation: lb3anim 6s ease-in-out infinite; animation-delay: -2.5s; }
+    #lb6 { animation: lb3anim 6s ease-in-out infinite; animation-delay: -4.5s; }
   </style>
 
   <defs>
