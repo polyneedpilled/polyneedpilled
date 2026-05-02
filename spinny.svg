@@ -1,0 +1,22 @@
+<svg width="100%" viewBox="0 0 680 480" role="img" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    @keyframes swing {
+      0%   { transform: rotate(0deg); }
+      50%  { transform: rotate(-60deg); }
+      100% { transform: rotate(0deg); }
+    }
+    #tri-group {
+      transform-origin: 100px 340px;
+      transform-box: view-box;
+      animation: swing 3s ease-in-out infinite;
+    }
+  </style>
+
+  <g id="tri-group">
+    <polygon points="100,340 260,340 100,200"
+             fill="#378ADD" fill-opacity="0.75"
+             stroke="#185FA5" stroke-width="1.2"/>
+  </g>
+
+</svg>
