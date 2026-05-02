@@ -1,0 +1,83 @@
+<svg width="100%" viewBox="0 0 100 100" role="img" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .lb {
+      transform-origin: 0px 100px;
+      transform-box: view-box;
+    }
+
+    @keyframes lb1anim {
+      0%   { transform: rotate(-15deg); }
+      50%  { transform: rotate(15deg);  }
+      100% { transform: rotate(-15deg); }
+    }
+    @keyframes lb2anim {
+      0%   { transform: rotate(15deg); }
+      50%  { transform: rotate(-15deg);  }
+      100% { transform: rotate(15deg); }
+    }
+    @keyframes lb3anim {
+      0%   { transform: rotate(30deg); }
+      50%  { transform: rotate(-30deg);  }
+      100% { transform: rotate(30deg); }
+    }
+    @keyframes lb4anim {
+      0%   { transform: rotate(45deg); }
+      50%  { transform: rotate(-45deg);  }
+      100% { transform: rotate(45deg); }
+    }
+    #lb1 { animation: lb1anim 2s ease-in-out infinite; }
+    #lb2 { animation: lb2anim 2s ease-in-out infinite; animation-delay: -0.4s; }
+    #lb3 { animation: lb3anim 4s ease-in-out infinite; }
+    #lb4 { animation: lb3anim 4s ease-in-out infinite; animation-delay: -1s; }
+    #lb5 { animation: lb3anim 4s ease-in-out infinite; animation-delay: -0.6s; }
+    #lb6 { animation: lb3anim 4s ease-in-out infinite; animation-delay: -1.4s; }
+  </style>
+
+  <defs>
+    <radialGradient id="frontfill" cx="0" cy="1" r="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#58dcfd" stop-opacity="1"/>
+      <stop offset="45%"   stop-color="#58dcfd" stop-opacity="1"/>
+      <stop offset="90%" stop-color="#58dcfd" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <defs>
+    <radialGradient id="midfill" cx="0" cy="1" r="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#33AAEE" stop-opacity="1"/>
+      <stop offset="50%"   stop-color="#33AAEE" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#33AAEE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <defs>
+    <radialGradient id="backfill" cx="0" cy="1" r="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="50%"   stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g class="lb" id="lb1">
+    <polygon points="-10,110 95,-10 110,5"
+             fill="url(#frontfill)" fill-opacity="0.75"/>
+  </g>
+  <g class="lb" id="lb2">
+    <polygon points="-10,110 95,-10 110,5"
+             fill="url(#frontfill)" fill-opacity="0.75"/>
+  </g>
+  <g class="lb" id="lb3">
+    <polygon points="-10,110 95,-10 110,5"
+             fill="url(#midfill)" fill-opacity="0.75"/>
+  </g>
+  <g class="lb" id="lb4">
+    <polygon points="-10,110 95,-10 110,5"
+             fill="url(#midfill)" fill-opacity="0.75"/>
+  </g>
+  <g class="lb" id="lb5">
+    <polygon points="-10,110 95,-10 110,5"
+             fill="url(#backfill)" fill-opacity="0.3"/>
+  </g>
+  <g class="lb" id="lb6">
+    <polygon points="-10,110 95,-10 110,5"
+             fill="url(#backfill)" fill-opacity="0.3"/>
+  </g>
+
+</svg>
